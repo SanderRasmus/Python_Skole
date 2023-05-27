@@ -1,5 +1,6 @@
 def kalkulator():
-    valg = int(input("Velg en av de følgene: "))
+    print("Tilgjengelige regnearter: \n [1] Pluss \n [2] Minus \n [3] Gange \n [4] Dele")
+    valg = int(input("Velg en av de følgene prosessene: "))
 
     if valg == 1:
         number1 = int(input("Velg tall nummer 1: "))
